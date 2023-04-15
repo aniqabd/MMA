@@ -15,7 +15,7 @@ function App() {
           <Appbar />
           <Routes>
             <Route path="/" component={<Home/>} />
-            <Route path="/home" component={<Home/>} />
+            <Route path="/home" element={<Home />}></Route>
           </Routes>
       </Router>
     </div>
